@@ -38,7 +38,7 @@ You can check out a video demonstration of this script here: *(Add video link if
 
 For help, bug reports, or to contribute, please join our Discord:
 
-[![Discord](https://discordapp.com/api/guilds/YOUR_DISCORD_ID/widget.png)](https://discord.gg/YOUR_DISCORD_LINK)
+[![Discord](https://cdn.discordapp.com/attachments/840810737298702406/1286783581934456923/PRywUXcqg0v5DD6s7C3LyQ.png?ex=66ef2a19&is=66edd899&hm=66486c1bdbaa6b92bf0e2a012496a979531249b21a092cdc2cc5156aab4ab678&)](https://discord.gg/q9ECc4TCpD)
 
 ## Updates
 
