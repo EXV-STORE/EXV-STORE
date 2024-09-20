@@ -14,7 +14,7 @@ if Config.checkForUpdates then
 
     CreateThread(function()
         while true do
-            PerformHttpRequest("https://api.github.com/repos/usuario/exv-firstpersonaim/releases/latest", CheckVersion, "GET")
+            PerformHttpRequest("https://api.github.com/repos/EXV-STORE/exv-firstpersonaim-QB/releases/latest", CheckVersion, "GET")
             Wait(3600000) 
         end
     end)
@@ -41,7 +41,7 @@ if Config.checkForUpdates then
     GetRepoInformations = function()
         local repoVersion, repoURL, repoBody = nil, nil, nil
 
-        PerformHttpRequest("https://api.github.com/repos/usuario/exv-firstpersonaim/releases/latest", function(err, response, headers)
+        PerformHttpRequest("https://api.github.com/repos/EXV-STORE/exv-firstpersonaim-QB/releases/latest", function(err, response, headers)
             if err == 200 then
                 local data = json.decode(response)
 
@@ -50,7 +50,7 @@ if Config.checkForUpdates then
                 repoBody = data.body
             else
                 repoVersion = curVersion
-                repoURL = "https://github.com/usuario/exv-firstpersonaim"
+                repoURL = "https://discord.gg/q9ECc4TCpD"
             end
         end, "GET")
 
